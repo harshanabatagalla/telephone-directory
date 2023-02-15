@@ -16,6 +16,7 @@ function App() {
       <input id ="name" type="text" placeholder='Your Name' defaultValue="Name" />
 
     </div>
+    
   );
 }
 

@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-      Test 1
+      Phone directory
     </div>
   );
 }

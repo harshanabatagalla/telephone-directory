@@ -1,22 +1,21 @@
 import React from 'react';
+import Header from './Headder';
 
 function App() {
+
   return (
     <div>
-      {/* Phone directory <br />
 
-      <button>Add</button> <br />
+      <Header />
+      <button>Add</button>
 
       <div>
         <span> Name </span> <br />
         <span> Phone </span>
-      </div> */}
-
-      <label htmlFor="name"> Name: </label>
-      <input id ="name" type="text" placeholder='Your Name' defaultValue="Name" />
+      </div>
 
     </div>
-    
+
   );
 }
 

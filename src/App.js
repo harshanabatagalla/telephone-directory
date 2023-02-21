@@ -2,7 +2,13 @@ import React from 'react';
 import Header from './Header';
 import './App.css'
 
+
+
 function App() {
+
+  const clickHandler = (message)=> {
+    alert(message)
+  }
 
   let contacts= [
     {
@@ -35,7 +41,7 @@ function App() {
         return <div key={sub.id}className='contacts'>
           <span>{sub.name}</span>
           <span>{sub.phone}</span>
-          <span><button className='button-delete'>Delete</button></span>
+          <span><button className='button-delete' onClick={clickHandler.bind(this, "Delete clicked")}>Delete</button></span>
           </div>
       })
     }

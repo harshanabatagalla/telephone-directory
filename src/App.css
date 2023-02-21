@@ -1,0 +1,50 @@
+.button-add{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #7ab97a;
+    border: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: large;
+   color: white;
+   cursor: pointer;
+}
+
+.button-delete{
+    /* margin: 20px; */
+    padding: 5px;
+    text-align: center;
+    background-color:rgb(230, 33, 46);
+    border: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: medium;
+   color: white;
+   cursor: pointer;
+}
+
+.input-container{
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #808080;
+    margin: 20px;
+    word-wrap: break-word;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 10% 30% auto;
+}
+
+.contacts{
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: black;
+    margin: 20px;
+    word-wrap: break-word;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 40% 30% auto;
+}

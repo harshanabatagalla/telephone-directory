@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
 
-      <Header />
+      <Header headding="Phone Directory" />
       <div>
         <button className='button-add'>Add</button>
       </div>
